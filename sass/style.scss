@@ -1,0 +1,55 @@
+
+@import "palette.scss";
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans:400,800|Oswald:400,700');
+
+$logo: 'Dancing Script', cursive;
+$textos: 'Open Sans', sans-serif;
+$titulos: 'Oswald', sans-serif;
+
+body{
+	padding-top: 0px;
+	h1, h2, h3, h4, h5, h5,{
+		font-family: $titulos;
+		font-size: 80px;
+	}
+	p{
+		font-family: $textos;
+		font-size: 30px;
+	}
+}
+
+
+
+.navbar{
+	.navbat-dark{
+		color: red;
+	}
+
+.navbar-text{
+	font-family: $logo;
+}
+	a{
+		font-family: $textos;
+
+	}
+}
+
+.social{
+	display: flex;
+	list-style: none;
+	padding: 0;
+	li{
+		padding: 10px;
+		a{
+			color: #AAA;
+			transition: .5s;
+			display: inline-block;
+			span{
+				font-size: 30px;
+			}
+			&:hover{
+				transform: scale(1.3);
+			}
+		}
+	}
+}
